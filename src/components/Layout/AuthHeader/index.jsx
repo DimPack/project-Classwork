@@ -13,7 +13,7 @@ const AuthHeader = () => {
     <div className={styles.container}>
       <header className={styles.headerAuthPage}>
         <Logo src={`${CONSTANTS.STATIC_IMAGES_PATH}logo.png`} alt="logo" />
-        
+
         <div className={styles.linkAuthContainer}>
           <Link to={isLoginPage ? "/registration" : "/login"}>
             <span>{isLoginPage ? "Signup" : "Login"}</span>
